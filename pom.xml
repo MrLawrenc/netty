@@ -1394,7 +1394,7 @@
             </lifecycleMappingMetadata>
           </configuration>
         </plugin>
-        <plugin>
+       <!-- <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-remote-resources-plugin</artifactId>
           <version>1.5</version>
@@ -1403,7 +1403,7 @@
               <resourceBundle>io.netty:netty-dev-tools:${project.version}</resourceBundle>
             </resourceBundles>
             <outputDirectory>${netty.dev.tools.directory}</outputDirectory>
-            <!-- don't include netty-dev-tools in artifacts -->
+            &lt;!&ndash; don't include netty-dev-tools in artifacts &ndash;&gt;
             <attachToMain>false</attachToMain>
             <attachToTest>false</attachToTest>
           </configuration>
@@ -1414,7 +1414,7 @@
               </goals>
             </execution>
           </executions>
-        </plugin>
+        </plugin>-->
         <plugin>
           <groupId>de.thetaphi</groupId>
           <artifactId>forbiddenapis</artifactId>
